@@ -31,15 +31,19 @@ _DIRS = [(0, 1), (1, 0), (1, 1), (1, -1)]
 CELL   = 40
 PAD    = 28
 INFO_H = 90
-BG_COLOR    = (15,  15,  25)
-BOARD_COLOR = (200, 160,  80)   # wood-like
-LINE_COLOR  = (120,  90,  40)
-BLACK_COLOR = (20,   20,  20)
+BG_COLOR    = (10, 12, 20)
+BOARD_COLOR = (188, 148, 72)
+LINE_COLOR  = (115, 85, 38)
+BLACK_COLOR = (15, 15, 15)
 WHITE_COLOR = (245, 245, 245)
-LAST_MARK   = (220,  60,  60)   # red dot on last stone
-HINT_COLOR  = (100, 200, 100)
-FONT_COLOR  = (220, 220, 220)
-STAR_COLOR  = (80,   55,  20)   # star-point dots
+LAST_MARK   = (255, 80, 120)
+HINT_COLOR  = (55, 225, 130)
+FONT_COLOR  = (238, 242, 255)
+STAR_COLOR  = (75, 52, 18)
+PANEL_BG    = (18, 21, 34)
+PANEL_BDR   = (42, 48, 72)
+TEXT_SEC    = (130, 140, 175)
+WARNING_CLR = (255, 215, 60)
 
 
 class GomokuGame(BaseGame):
@@ -261,7 +265,7 @@ Legal moves: all empty cells. Choose strategically.
 
         # Info bar
         info_y = board_px
-        pygame.draw.rect(scr, (25, 25, 35), (0, info_y, scr.get_width(), INFO_H))
+        pygame.draw.rect(scr, PANEL_BG, (0, info_y, scr.get_width(), INFO_H))
         if self._winner:
             msg   = f"Winner: {self._winner}! (5-in-a-row)"
             color = (180, 180, 180) if self._winner == "player_black" else WHITE_COLOR

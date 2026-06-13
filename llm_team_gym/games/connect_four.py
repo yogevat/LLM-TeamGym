@@ -28,12 +28,16 @@ CELL  = 82
 GAP   = 6
 PAD   = GAP
 INFO_H = 100
-BG_COLOR    = (15, 15, 25)
-BOARD_COLOR = (20,  80, 180)
-EMPTY_COLOR = (10,  10,  40)
-P1_COLOR    = (220, 55,  55)   # red
-P2_COLOR    = (240, 200,  30)  # yellow
-FONT_COLOR  = (220, 220, 220)
+BG_COLOR    = (10, 12, 20)
+BOARD_COLOR = (18, 55, 140)
+EMPTY_COLOR = (10, 14, 35)
+P1_COLOR    = (0, 212, 190)
+P2_COLOR    = (255, 80, 120)
+FONT_COLOR  = (238, 242, 255)
+PANEL_BG    = (18, 21, 34)
+PANEL_BDR   = (42, 48, 72)
+TEXT_SEC    = (130, 140, 175)
+WARNING_CLR = (255, 215, 60)
 
 _DIRS = [(0, 1), (1, 0), (1, 1), (1, -1)]
 
@@ -224,7 +228,7 @@ Always choose from the provided legal_columns list.
 
         # Info bar
         info_y = board_top + board_h + GAP
-        pygame.draw.rect(scr, (30, 30, 40), (0, info_y, scr.get_width(), INFO_H))
+        pygame.draw.rect(scr, PANEL_BG, (0, info_y, scr.get_width(), INFO_H))
         if self._winner:
             msg = f"Winner: {self._winner}!"
             color = P1_COLOR if self._winner == "player_1" else P2_COLOR

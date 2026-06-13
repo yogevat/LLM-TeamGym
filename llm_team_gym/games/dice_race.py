@@ -24,10 +24,14 @@ from llm_team_gym.core.base_game import (
 
 GOAL = 100
 
-BG_COLOR   = (15,  15,  25)
-P_COLORS   = [(70, 130, 220), (220, 70, 70), (60, 190, 80), (230, 200, 40)]
-FONT_COLOR = (220, 220, 220)
-PIG_COLOR  = (200, 80, 200)
+BG_COLOR   = (10, 12, 20)
+P_COLORS   = [(0, 212, 190), (255, 80, 120), (148, 92, 255), (255, 178, 50)]
+FONT_COLOR = (238, 242, 255)
+PIG_COLOR  = (148, 92, 255)
+PANEL_BG   = (18, 21, 34)
+PANEL_BDR  = (42, 48, 72)
+TEXT_SEC   = (130, 140, 175)
+WARNING_CLR= (255, 215, 60)
 
 
 class DiceRaceGame(BaseGame):

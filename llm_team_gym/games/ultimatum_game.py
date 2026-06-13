@@ -29,9 +29,15 @@ from llm_team_gym.core.base_game import (
 TOTAL   = 10
 PLAYERS = ("p0", "p1")
 
-BG_COLOR = (12, 12, 25)
-P_COLOR  = [(70, 130, 220), (220, 80, 60)]
-TEXT_CLR = (220, 220, 230)
+BG_COLOR = (10, 12, 20)
+P_COLOR  = [(0, 212, 190), (255, 80, 120)]
+TEXT_CLR = (238, 242, 255)
+PANEL_BG = (18, 21, 34)
+PANEL_BDR= (42, 48, 72)
+TEXT_SEC = (130, 140, 175)
+WARNING_CLR=(255, 215, 60)
+SUCCESS_CLR=(55, 225, 130)
+DANGER_CLR=(255, 75, 80)
 
 
 class UltimatumGame(BaseGame):

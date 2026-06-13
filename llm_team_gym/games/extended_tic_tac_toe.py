@@ -28,13 +28,17 @@ GAP    = 6
 PAD    = 20
 INFO_H = 100
 
-BG_COLOR   = (15,  15,  25)
-GRID_COLOR = (60,  60,  80)
-X_COLOR    = (220, 70,  70)   # red for X
-O_COLOR    = (70,  140, 220)  # blue for O
-WIN_COLOR  = (255, 220,  30)  # gold highlight for winning line
-FONT_COLOR = (220, 220, 220)
-EMPTY_COLOR= (30,  30,  45)
+BG_COLOR   = (10, 12, 20)
+GRID_COLOR = (42, 48, 72)
+X_COLOR    = (0, 212, 190)
+O_COLOR    = (255, 80, 120)
+WIN_COLOR  = (255, 215, 60)
+FONT_COLOR = (238, 242, 255)
+EMPTY_COLOR= (18, 21, 34)
+PANEL_BG   = (18, 21, 34)
+PANEL_BDR  = (42, 48, 72)
+TEXT_SEC   = (130, 140, 175)
+WARNING_CLR= (255, 215, 60)
 
 _DIRS = [(0, 1), (1, 0), (1, 1), (1, -1)]
 
@@ -221,7 +225,7 @@ Always choose from the provided legal_moves list exactly as shown.
 
         # Info bar
         board_bottom = PAD + SIZE * (CELL + GAP)
-        pygame.draw.rect(scr, (30, 30, 40), (0, board_bottom, scr.get_width(), INFO_H))
+        pygame.draw.rect(scr, PANEL_BG, (0, board_bottom, scr.get_width(), INFO_H))
         if self._winner:
             msg   = f"Winner: {self._winner}!"
             color = X_COLOR if self._winner == "player_X" else O_COLOR

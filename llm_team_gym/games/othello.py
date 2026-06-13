@@ -30,13 +30,17 @@ CELL   = 72
 GAP    = 2
 PAD    = 16
 INFO_H = 90
-BG_COLOR     = (15,  15,  25)
-BOARD_BG     = (20,  110,  50)
-LINE_COLOR   = (10,   80,  30)
-BLACK_COLOR  = (20,   20,  20)
-WHITE_COLOR  = (240, 240, 240)
-HINT_COLOR   = (180, 220,  80)
-FONT_COLOR   = (220, 220, 220)
+BG_COLOR     = (10, 12, 20)
+BOARD_BG     = (18, 100, 45)
+LINE_COLOR   = (12, 75, 30)
+BLACK_COLOR  = (0, 212, 190)
+WHITE_COLOR  = (255, 80, 120)
+HINT_COLOR   = (255, 215, 60)
+FONT_COLOR   = (238, 242, 255)
+PANEL_BG     = (18, 21, 34)
+PANEL_BDR    = (42, 48, 72)
+TEXT_SEC     = (130, 140, 175)
+WARNING_CLR  = (255, 215, 60)
 
 
 class OthelloGame(BaseGame):
@@ -254,7 +258,7 @@ Always choose from the provided legal_moves list exactly as shown.
 
         # Info bar
         board_bottom = PAD * 2 + board_px
-        pygame.draw.rect(scr, (25, 25, 35), (0, board_bottom, scr.get_width(), INFO_H))
+        pygame.draw.rect(scr, PANEL_BG, (0, board_bottom, scr.get_width(), INFO_H))
         b = sum(self.grid[r][c] == BLACK for r in range(SIZE) for c in range(SIZE))
         w_cnt = sum(self.grid[r][c] == WHITE for r in range(SIZE) for c in range(SIZE))
         if self._winner:

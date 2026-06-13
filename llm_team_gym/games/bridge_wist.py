@@ -49,15 +49,21 @@ TEAM_OF       = {'N': 'NS', 'S': 'NS', 'E': 'EW', 'W': 'EW'}
 RANK_IDX: Dict[str, int] = {r: i for i, r in enumerate(RANKS)}
 SUIT_IDX: Dict[str, int] = {s: i for i, s in enumerate(SUITS + (SUIT_NT,))}
 
-BG_COLOR  = (10, 40, 10)
-TEXT_CLR  = (220, 230, 220)
-CARD_BG   = (255, 255, 245)
-CARD_RED  = (200, 20, 20)
-CARD_BLK  = (20, 20, 20)
+BG_COLOR  = (10, 12, 20)
+TEXT_CLR  = (238, 242, 255)
+CARD_BG   = (252, 252, 248)
+CARD_RED  = (220, 50, 70)
+CARD_BLK  = (18, 18, 25)
 P_COLORS: Dict[str, Tuple] = {
-    'N': (70, 130, 220), 'E': (220, 70, 70),
-    'S': (60, 190, 80),  'W': (230, 200, 40),
+    'N': (0, 212, 190), 'E': (255, 80, 120),
+    'S': (0, 212, 190), 'W': (255, 80, 120),
 }
+NS_COLOR  = (0, 212, 190)
+EW_COLOR  = (255, 80, 120)
+PANEL_BG  = (18, 21, 34)
+PANEL_BDR = (42, 48, 72)
+TEXT_SEC  = (130, 140, 175)
+WARNING_CLR=(255, 215, 60)
 
 
 def _build_deck() -> List[Tuple[str, str]]:

@@ -52,14 +52,18 @@ _SLIDING = {QUEEN, ROOK, BISHOP}
 SQ     = 100
 PAD    = 20
 INFO_H = 110
-LIGHT  = (240, 217, 181)
-DARK   = (181, 136,  99)
-HL_LAST= (100, 200, 100, 160)   # last-move highlight
-HL_CHK = (220,  60,  60)        # check highlight
+LIGHT  = (238, 215, 178)
+DARK   = (175, 130, 92)
+HL_LAST= (80, 200, 130)
+HL_CHK = (255, 75, 80)
 W_COLOR= (250, 250, 250)
-B_COLOR= (30,   30,  30)
-FONT_COLOR = (220, 220, 220)
-BG_COLOR   = (15,  15,  25)
+B_COLOR= (25, 25, 25)
+FONT_COLOR = (238, 242, 255)
+BG_COLOR   = (10, 12, 20)
+PANEL_BG   = (18, 21, 34)
+PANEL_BDR  = (42, 48, 72)
+TEXT_SEC   = (130, 140, 175)
+WARNING_CLR= (255, 215, 60)
 
 PIECE_UNICODE = {
     (KING,   WHITE): "♔", (QUEEN,  WHITE): "♕",
@@ -341,7 +345,7 @@ Always choose from the provided legal_moves list exactly as shown.
 
         # Info bar
         info_y = PAD * 2 + 5 * SQ
-        pygame.draw.rect(scr, (25, 25, 35), (0, info_y, scr.get_width(), INFO_H))
+        pygame.draw.rect(scr, PANEL_BG, (0, info_y, scr.get_width(), INFO_H))
         if self._winner:
             msg   = f"Checkmate! Winner: {self._winner}"
             color = (240, 200, 50)

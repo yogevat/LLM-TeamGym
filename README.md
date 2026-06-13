@@ -3,7 +3,7 @@
 > **A professional, multi-paradigm benchmark library for evaluating Large Language Models in strategy games — from classic board games to complex multi-team negotiation scenarios.**
 
 LLM-TeamGym is an OpenAI Gym / PettingZoo-inspired framework purpose-built for the unique challenges of LLM-based agents: **text-only state observations, structured legal-move prompting, hidden-information masking, and team coordination channels.**  
-It ships with **23 fully implemented games** across 5 paradigm families, a tournament runner, JSONL transcript logging, and real-time Pygame visualization.
+It ships with **22 fully implemented games** across 5 paradigm families, a tournament runner, JSONL transcript logging, and real-time Pygame visualization.
 
 ---
 
@@ -18,10 +18,10 @@ LLM-TeamGym/
 │   ├── envs/
 │   │   ├── tournament.py         # MatchRunner + TournamentRunner
 │   │   └── logger.py             # JSONL transcript logging
-│   └── games/                    # 23 complete game implementations
+│   └── games/                    # 22 complete game implementations
 │       ├── team_fish.py
 │       ├── connect_four.py
-│       └── … (20 more)
+│       └── … (19 more)
 ├── docs/
 │   └── images/                   # Auto-generated Pygame screenshots
 ├── main.py                       # CLI entry point
@@ -118,7 +118,7 @@ record = runner.run()   # returns MatchRecord with full transcript
 
 | Feature | Detail |
 |---------|--------|
-| **23 Complete Games** | 5 paradigm families: grid strategy, board games, social deduction, cards, game theory |
+| **22 Complete Games** | 5 paradigm families: grid strategy, board games, social deduction, cards, game theory |
 | **Text-Native States** | Every `get_text_state()` returns structured JSON tailored per agent — hidden info properly masked |
 | **Legal-Move Guardrails** | `get_legal_moves()` provides only strictly valid actions — eliminates LLM hallucination of illegal moves |
 | **Hidden Information** | Per-agent asymmetric state: Hanabi hands, Resistance spy identities, Captain Sonar positions |
@@ -311,20 +311,6 @@ record = runner.run()   # returns MatchRecord with full transcript
 | Valid Discards | Single card · Set (same rank) · Run (3+ consecutive, same suit) · Joker wild |
 | Action Format | `"5H 5D"` · `"3S 4S 5S"` · `"yaniv"` · `"deck"` · `"pile"` |
 | Card Values | A=1, 2–10=face, J=11, Q=12, K=13, Joker=0 |
-
----
-
-#### Blackjack
-![Blackjack](docs/images/blackjack.png)
-
-> **Casino-style card game against an automated dealer.** Hit, stand, or double-down. Dealer hits on soft ≤16. Blackjack pays 1.5×.
-
-| Property | Value |
-|----------|-------|
-| Players | 1–3 (each vs automated dealer) |
-| Action Format | `"hit"` · `"stand"` · `"double"` (first action only) |
-| State | Your hand + value, dealer visible card, legal actions |
-| Outcomes | Blackjack +1.5 · Win +1 · Push 0 · Lose −1 · Double doubles stakes |
 
 ---
 

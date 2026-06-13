@@ -30,12 +30,15 @@ REGEN_RATE          = 0.25        # 25 % of current stock (logistic-like)
 COLLAPSE_THRESHOLD  = 10.0
 MAX_HARVEST         = 20
 
-BG_COLOR   = (10, 20, 15)
-GOOD_CLR   = (60, 200, 80)
-WARN_CLR   = (230, 180, 30)
-DEAD_CLR   = (200, 40, 40)
-TEXT_CLR   = (220, 230, 220)
-P_COLORS   = [(70, 130, 220), (220, 70, 70), (60, 190, 80), (230, 200, 40)]
+BG_COLOR   = (10, 12, 20)
+GOOD_CLR   = (55, 225, 130)
+WARN_CLR   = (255, 215, 60)
+DEAD_CLR   = (255, 75, 80)
+TEXT_CLR   = (238, 242, 255)
+P_COLORS   = [(0, 212, 190), (255, 80, 120), (148, 92, 255), (255, 178, 50)]
+PANEL_BG   = (18, 21, 34)
+PANEL_BDR  = (42, 48, 72)
+TEXT_SEC   = (130, 140, 175)
 
 
 class TragedyOfTheCommonsGame(BaseGame):
@@ -247,7 +250,7 @@ ACTION FORMAT
         scr.blit(self._font.render(
             f"Round {self._round}/{self.n_rounds}  Resource: {self.resource:.1f}/{MAX_RESOURCE}{collapsed}",
             True, res_clr), (10, 10))
-        pygame.draw.rect(scr, (30, 40, 30), (10, 40, 700, 22), border_radius=4)
+        pygame.draw.rect(scr, PANEL_BG, (10, 40, 700, 22), border_radius=4)
         pygame.draw.rect(scr, res_clr, (10, 40, int(700 * res_pct), 22), border_radius=4)
         for i, pid in enumerate(self.player_ids):
             col = P_COLORS[i % len(P_COLORS)]

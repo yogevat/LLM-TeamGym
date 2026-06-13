@@ -48,10 +48,13 @@ BEATS_REASON: Dict[Tuple[str, str], str] = {
     ("spock",    "scissors"): "Spock smashes Scissors",
 }
 
-BG_COLOR  = (10, 12, 25)
-C_COLORS  = [(70, 130, 220), (220, 70, 70), (60, 190, 80), (230, 200, 40)]
-TEXT_CLR  = (220, 220, 230)
-WIN_CLR   = (255, 215,   0)
+BG_COLOR  = (10, 12, 20)
+C_COLORS  = [(0, 212, 190), (255, 80, 120), (148, 92, 255), (255, 178, 50)]
+TEXT_CLR  = (238, 242, 255)
+WIN_CLR   = (255, 215, 60)
+PANEL_BG  = (18, 21, 34)
+PANEL_BDR = (42, 48, 72)
+TEXT_SEC  = (130, 140, 175)
 
 
 class ExtendedRPSGame(BaseGame):

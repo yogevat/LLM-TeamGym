@@ -64,20 +64,24 @@ INFO_HEIGHT = 120         # px for scoreboard area at the bottom
 FPS         = 30
 
 TEAM_COLORS: Dict[str, Tuple[int, int, int]] = {
-    "team_A": (70, 130, 220),   # blue
-    "team_B": (220, 80,  70),   # red
+    "team_A": (0, 212, 190),    # teal
+    "team_B": (255, 80, 120),   # coral
 }
-AGENT_TEXT_COLOR = (255, 255, 255)
-BG_COLOR         = (30,  30,  35)
-WATER_COLOR      = (20,  20,  100)
+AGENT_TEXT_COLOR = (10, 12, 20)
+BG_COLOR         = (10, 12, 20)
+WATER_COLOR      = (18, 21, 34)
 CELL_COLORS      = {
-    0: WATER_COLOR,
-    1: (80,  140, 80),
-    2: (120, 180, 60),
-    3: (180, 210, 40),
+    0: (18, 21, 34),
+    1: (30,  140, 100),
+    2: (50,  185, 110),
+    3: (80,  225, 130),
 }
-FONT_COLOR       = (230, 230, 230)
-SCORE_BG         = (45,  45,  50)
+FONT_COLOR       = (238, 242, 255)
+SCORE_BG         = (18, 21, 34)
+PANEL_BDR        = (42, 48, 72)
+TEXT_SEC         = (130, 140, 175)
+WARNING_CLR      = (255, 215, 60)
+ACCENT_CLR       = (88, 170, 255)
 
 
 # ---------------------------------------------------------------------------
@@ -353,11 +357,11 @@ ACTION FORMAT
                 y = MARGIN + r * (CELL_SIZE + MARGIN)
                 fish_val = self.grid[r][c]
                 color = CELL_COLORS.get(fish_val, WATER_COLOR)
-                pygame.draw.rect(screen, color, (x, y, CELL_SIZE, CELL_SIZE), border_radius=8)
+                pygame.draw.rect(screen, color, (x, y, CELL_SIZE, CELL_SIZE), border_radius=10)
 
                 # Fish value label
                 if fish_val > 0:
-                    label = self._font_large.render(str(fish_val), True, (30, 30, 30))
+                    label = self._font_large.render(str(fish_val), True, (10, 12, 20))
                     screen.blit(label, (x + CELL_SIZE // 2 - label.get_width() // 2,
                                        y + CELL_SIZE // 2 - label.get_height() // 2))
 
@@ -368,7 +372,7 @@ ACTION FORMAT
                     token_color = TEAM_COLORS[team_id]
                     cx, cy = x + CELL_SIZE // 2, y + CELL_SIZE // 2
                     pygame.draw.circle(screen, token_color, (cx, cy), CELL_SIZE // 3)
-                    pygame.draw.circle(screen, (255, 255, 255), (cx, cy), CELL_SIZE // 3, 2)
+                    pygame.draw.circle(screen, (255, 255, 255), (cx, cy), CELL_SIZE // 3, 3)
                     # Agent label inside token
                     lbl = self._font_small.render(agent_id, True, AGENT_TEXT_COLOR)
                     screen.blit(lbl, (cx - lbl.get_width() // 2, cy - lbl.get_height() // 2))
@@ -376,6 +380,7 @@ ACTION FORMAT
         # Scoreboard panel
         board_h = self.rows * (CELL_SIZE + MARGIN) + MARGIN
         pygame.draw.rect(screen, SCORE_BG, (0, board_h, screen.get_width(), INFO_HEIGHT))
+        pygame.draw.rect(screen, PANEL_BDR, (0, board_h, screen.get_width(), 1))
 
         def team_summary(team_id: str, x_offset: int) -> None:
             agents = self.teams[team_id]
@@ -387,7 +392,7 @@ ACTION FORMAT
                 elim = "  [OUT]" if self.eliminated.get(a) else ""
                 detail = self._font_small.render(
                     f"  {a}: {int(self.scores[a])} pts  pos={self.positions[a]}{elim}",
-                    True, FONT_COLOR,
+                    True, TEXT_SEC,
                 )
                 screen.blit(detail, (x_offset, board_h + 40 + i * 20))
 
@@ -397,9 +402,10 @@ ACTION FORMAT
 
         # Step / active agent
         active = self._active_agent()
+        active_color = ACCENT_CLR if active else TEXT_SEC
         step_lbl = self._font_small.render(
             f"Step: {self._step_count}   Active: {active or 'GAME OVER'}",
-            True, FONT_COLOR,
+            True, TEXT_SEC,
         )
         screen.blit(step_lbl, (mid - step_lbl.get_width() // 2, board_h + INFO_HEIGHT - 24))
 

@@ -63,11 +63,15 @@ CARD_H  = 90
 CARD_GAP = 8
 PAD     = 20
 INFO_H  = 80
-BG_COLOR   = (15, 15, 25)
-BACK_COLOR = (50, 50, 80)
-FONT_COLOR = (220, 220, 220)
-FUSE_COLOR = (200, 60, 60)
-CLUE_COLOR = (60, 200, 120)
+BG_COLOR   = (10, 12, 20)
+BACK_COLOR = (30, 33, 55)
+FONT_COLOR = (238, 242, 255)
+FUSE_COLOR = (255, 75, 80)
+CLUE_COLOR = (55, 225, 130)
+PANEL_BG   = (18, 21, 34)
+PANEL_BDR  = (42, 48, 72)
+TEXT_SEC   = (130, 140, 175)
+WARNING_CLR= (255, 215, 60)
 COLOUR_MAP: Dict[str, Tuple[int, int, int]] = {
     "red":    (220,  70,  70),
     "blue":   ( 60, 130, 220),
@@ -501,7 +505,7 @@ Always choose from the legal_moves list. Clue moves list only valid targets.
 
         # Info bar
         info_y = hand_start_y + n * (CARD_H + CARD_GAP * 4) + 10
-        pygame.draw.rect(scr, (25, 25, 35), (0, info_y, w, INFO_H))
+        pygame.draw.rect(scr, PANEL_BG, (0, info_y, w, INFO_H))
         score = sum(self.fireworks.values())
         if self._done:
             msg   = f"GAME OVER — Score: {score}/25"

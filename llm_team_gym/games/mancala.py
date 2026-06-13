@@ -40,15 +40,19 @@ STORE_W = 70
 STORE_H = PIT_D * 2 + GAP
 PAD    = 30
 INFO_H = 90
-BG_COLOR   = (15,  15,  25)
-BOARD_COLOR = (120, 80,  40)
-PIT_EMPTY   = (60,  45,  25)
-PIT_ACTIVE  = (90,  65,  35)
-P1_COLOR    = (220, 80,  80)
-P2_COLOR    = (80,  140, 220)
-SEED_COLOR  = (240, 200,  50)
-STORE_COLOR = (40,  30,  15)
-FONT_COLOR  = (230, 220, 200)
+BG_COLOR   = (10, 12, 20)
+BOARD_COLOR = (100, 65, 30)
+PIT_EMPTY   = (55, 40, 20)
+PIT_ACTIVE  = (80, 58, 28)
+P1_COLOR    = (0, 212, 190)
+P2_COLOR    = (255, 80, 120)
+SEED_COLOR  = (255, 215, 60)
+STORE_COLOR = (35, 25, 12)
+FONT_COLOR  = (238, 242, 255)
+PANEL_BG    = (18, 21, 34)
+PANEL_BDR   = (42, 48, 72)
+TEXT_SEC    = (130, 140, 175)
+WARNING_CLR = (255, 215, 60)
 
 
 class MancalaGame(BaseGame):
@@ -304,7 +308,7 @@ Always choose from the provided legal_moves list.
 
         # Info bar
         info_y = PAD * 2 + STORE_H + GAP * 2
-        pygame.draw.rect(scr, (25, 25, 35), (0, info_y, w, INFO_H))
+        pygame.draw.rect(scr, PANEL_BG, (0, info_y, w, INFO_H))
         if self._winner:
             msg   = f"Winner: {self._winner}!  (P1:{self.board[P1_STORE]} P2:{self.board[P2_STORE]})"
             color = P1_COLOR if self._winner == "player_1" else P2_COLOR

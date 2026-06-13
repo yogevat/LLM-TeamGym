@@ -12,7 +12,6 @@ from llm_team_gym.games.captain_sonar_mini import CaptainSonarMiniGame
 
 # Cards & Risk Management
 from llm_team_gym.games.yaniv import YanivGame
-from llm_team_gym.games.blackjack import BlackjackGame
 from llm_team_gym.games.team_taki import TeamTakiGame
 from llm_team_gym.games.bridge_wist import BridgeWistGame
 
@@ -40,7 +39,6 @@ __all__ = [
     "CaptainSonarMiniGame",
     # Cards & Risk Management
     "YanivGame",
-    "BlackjackGame",
     "TeamTakiGame",
     "BridgeWistGame",
     # Game Theory

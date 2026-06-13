@@ -86,16 +86,19 @@ def _quadrant(r: int, c: int) -> str:
 CELL   = 70
 PAD    = 20
 INFO_H = 110
-BG_COLOR    = (15,  15,  25)
-OCEAN_COLOR = (20,  40,  90)
-ISLAND_COLOR= (90,  70,  40)
-GRID_LINE   = (30,  60, 110)
-A_COLOR     = (70, 130, 220)
-B_COLOR     = (220, 70,  70)
-SONAR_COLOR = (200, 200,  80)
-FONT_COLOR  = (220, 220, 220)
-VISIT_A     = (40,  80, 140)
-VISIT_B     = (140, 40,  40)
+BG_COLOR    = (10, 12, 20)
+OCEAN_COLOR = (12, 30, 78)
+ISLAND_COLOR= (85, 68, 38)
+GRID_LINE   = (22, 50, 105)
+A_COLOR     = (0, 212, 190)
+B_COLOR     = (255, 80, 120)
+SONAR_COLOR = (255, 215, 60)
+FONT_COLOR  = (238, 242, 255)
+VISIT_A     = (0, 95, 88)
+VISIT_B     = (130, 35, 60)
+PANEL_BG    = (18, 21, 34)
+PANEL_BDR   = (42, 48, 72)
+TEXT_SEC    = (130, 140, 175)
 
 
 class CaptainSonarMiniGame(BaseGame):
@@ -460,7 +463,7 @@ ACTION FORMAT
 
         # Info bar
         info_y = PAD + board_px + 10
-        pygame.draw.rect(scr, (25, 25, 35), (0, info_y, w, INFO_H))
+        pygame.draw.rect(scr, PANEL_BG, (0, info_y, w, INFO_H))
         phase = PHASES[self._phase_idx % len(PHASES)]
         if self._done:
             msg   = f"GAME OVER — {self._winner or 'Draw'}  (A:{self.lives['A']} B:{self.lives['B']})"

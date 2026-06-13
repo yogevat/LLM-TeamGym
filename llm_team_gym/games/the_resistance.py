@@ -67,16 +67,19 @@ P_GAP   = 20
 PAD     = 28
 INFO_H  = 80
 ROUND_H = 38
-BG_COLOR      = (15,  15,  25)
-RES_COLOR     = (60,  130, 220)  # blue = resistance
-SPY_COLOR     = (200,  50,  50)  # red = spy
-NEUTRAL_COLOR = (80,   80,  90)
-APPROVE_COL   = (60,  180,  80)
-REJECT_COL    = (200,  60,  60)
-PASS_COL      = (60,  200, 120)
-FAIL_COL      = (220,  60,  60)
-FONT_COLOR    = (220, 220, 220)
-GOLD_COLOR    = (240, 200,  40)
+BG_COLOR      = (10, 12, 20)
+RES_COLOR     = (0, 212, 190)
+SPY_COLOR     = (255, 75, 80)
+NEUTRAL_COLOR = (55, 60, 85)
+APPROVE_COL   = (55, 225, 130)
+REJECT_COL    = (255, 75, 80)
+PASS_COL      = (55, 225, 130)
+FAIL_COL      = (255, 75, 80)
+FONT_COLOR    = (238, 242, 255)
+GOLD_COLOR    = (255, 215, 60)
+PANEL_BG      = (18, 21, 34)
+PANEL_BDR     = (42, 48, 72)
+TEXT_SEC      = (130, 140, 175)
 
 
 class TheResistanceGame(BaseGame):
@@ -372,7 +375,8 @@ ACTION FORMAT
 
         # Current phase
         phase_y = table_y + 26 + 5 * ROUND_H + 10
-        pygame.draw.rect(scr, (30, 30, 45), (PAD, phase_y, w - PAD * 2, INFO_H))
+        pygame.draw.rect(scr, PANEL_BG, (PAD, phase_y, w - PAD * 2, INFO_H), border_radius=8)
+        pygame.draw.rect(scr, PANEL_BDR, (PAD, phase_y, w - PAD * 2, INFO_H), 1, border_radius=8)
         if self._done:
             msg   = f"GAME OVER — {self._winner.upper()} WIN!"
             color = RES_COLOR if self._winner == "resistance" else SPY_COLOR

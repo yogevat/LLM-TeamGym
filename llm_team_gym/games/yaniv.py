@@ -46,12 +46,16 @@ RANK_ORDER: Dict[str, int] = {r: i for i, r in enumerate(RANKS)}
 YANIV_THRESHOLD = 7
 ASSAF_PENALTY   = 30
 
-BG_COLOR   = (15, 15, 30)
-TEXT_CLR   = (230, 230, 230)
-CARD_BG    = (255, 255, 245)
-CARD_RED   = (190, 20, 20)
-CARD_BLK   = (20, 20, 20)
-P_COLORS   = [(70, 130, 220), (220, 70, 70), (60, 190, 80), (230, 200, 40)]
+BG_COLOR   = (10, 12, 20)
+TEXT_CLR   = (238, 242, 255)
+CARD_BG    = (252, 252, 248)
+CARD_RED   = (220, 50, 70)
+CARD_BLK   = (18, 18, 25)
+P_COLORS   = [(0, 212, 190), (255, 80, 120), (148, 92, 255), (255, 178, 50)]
+PANEL_BG   = (18, 21, 34)
+PANEL_BDR  = (42, 48, 72)
+TEXT_SEC   = (130, 140, 175)
+WARNING_CLR= (255, 215, 60)
 
 
 def _build_deck() -> List[Tuple[str, str]]:

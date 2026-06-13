@@ -57,13 +57,17 @@ BOARD_PRODUCTION: Dict[str, List[Tuple[str, int]]] = {
 
 HARBORS: Dict[str, str] = {"p0": "any", "p2": "ore"}
 
-BG_COLOR  = (10, 30, 15)
-TEXT_CLR  = (220, 230, 220)
-P_COLORS  = [(70, 130, 220), (220, 70, 70), (60, 190, 80), (230, 200, 40)]
+BG_COLOR  = (10, 12, 20)
+TEXT_CLR  = (238, 242, 255)
+P_COLORS  = [(0, 212, 190), (255, 80, 120), (148, 92, 255), (255, 178, 50)]
 RES_CLR   = {
-    "wood": (50, 140, 50), "brick": (180, 80, 40), "sheep": (160, 200, 80),
-    "wheat": (230, 190, 30), "ore": (130, 130, 150),
+    "wood": (45, 155, 65), "brick": (195, 90, 45), "sheep": (160, 215, 90),
+    "wheat": (240, 200, 35), "ore": (140, 140, 165),
 }
+PANEL_BG  = (18, 21, 34)
+PANEL_BDR = (42, 48, 72)
+TEXT_SEC  = (130, 140, 175)
+WARNING_CLR=(255, 215, 60)
 
 
 def _zero_res() -> Dict[str, int]:

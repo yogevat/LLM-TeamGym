@@ -31,10 +31,14 @@ PRIZE          = 100
 START_BUDGET   = 150
 BID_INCREMENT  = 5
 
-BG_COLOR  = (10, 12, 22)
-TEXT_CLR  = (220, 220, 230)
-P_COLORS  = [(70, 130, 220), (220, 70, 70), (60, 190, 80), (230, 200, 40)]
-PRIZE_CLR = (255, 215,   0)
+BG_COLOR  = (10, 12, 20)
+TEXT_CLR  = (238, 242, 255)
+P_COLORS  = [(0, 212, 190), (255, 80, 120), (148, 92, 255), (255, 178, 50)]
+PRIZE_CLR = (255, 215, 60)
+PANEL_BG  = (18, 21, 34)
+PANEL_BDR = (42, 48, 72)
+TEXT_SEC  = (130, 140, 175)
+DANGER_CLR= (255, 75, 80)
 
 
 class DollarAuctionGame(BaseGame):

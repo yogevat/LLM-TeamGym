@@ -34,11 +34,16 @@ PAYOFF: Dict[Tuple[str, str], Tuple[float, float]] = {
 
 PLAYERS = ("p0", "p1")
 
-BG_COLOR  = (12, 12, 22)
-GRID_CLR  = (50, 60, 80)
-C_COLOR   = (60, 190, 80)
-D_COLOR   = (200, 60, 60)
-TEXT_CLR  = (220, 220, 230)
+BG_COLOR  = (10, 12, 20)
+GRID_CLR  = (42, 48, 72)
+C_COLOR   = (55, 225, 130)
+D_COLOR   = (255, 75, 80)
+TEXT_CLR  = (238, 242, 255)
+P_COLORS  = [(0, 212, 190), (255, 80, 120)]
+PANEL_BG  = (18, 21, 34)
+PANEL_BDR = (42, 48, 72)
+TEXT_SEC  = (130, 140, 175)
+WARNING_CLR=(255, 215, 60)
 
 
 class IteratedPrisonersDilemmaGame(BaseGame):

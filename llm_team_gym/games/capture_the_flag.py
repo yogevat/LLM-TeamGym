@@ -57,16 +57,20 @@ TURN_ORDER: Tuple[AgentID, ...] = ("A1", "B1", "A2", "B2")
 CELL   = 60
 PAD    = 16
 INFO_H = 100
-BG_COLOR      = (15,  15,  25)
-NEUTRAL_COLOR = (35,  35,  50)
-A_ZONE_COLOR  = (25,  55,  90)
-B_ZONE_COLOR  = (90,  25,  25)
-GRID_LINE     = (55,  55,  70)
-A_COLOR       = (70, 130, 220)
-B_COLOR       = (220, 70,  70)
-FLAG_A_COLOR  = (150, 200, 255)
-FLAG_B_COLOR  = (255, 160, 160)
-FONT_COLOR    = (220, 220, 220)
+BG_COLOR      = (10, 12, 20)
+NEUTRAL_COLOR = (22, 25, 40)
+A_ZONE_COLOR  = (15, 45, 80)
+B_ZONE_COLOR  = (75, 18, 40)
+GRID_LINE     = (35, 40, 60)
+A_COLOR       = (0, 212, 190)
+B_COLOR       = (255, 80, 120)
+FLAG_A_COLOR  = (0, 240, 215)
+FLAG_B_COLOR  = (255, 110, 145)
+FONT_COLOR    = (238, 242, 255)
+PANEL_BG      = (18, 21, 34)
+PANEL_BDR     = (42, 48, 72)
+TEXT_SEC      = (130, 140, 175)
+WARNING_CLR   = (255, 215, 60)
 
 
 class CaptureTheFlagGame(BaseGame):
@@ -409,7 +413,7 @@ Always choose from the provided legal_moves list.
 
         # Info bar
         board_bottom = PAD * 2 + self.rows * CELL
-        pygame.draw.rect(scr, (25, 25, 35), (0, board_bottom, scr.get_width(), INFO_H))
+        pygame.draw.rect(scr, PANEL_BG, (0, board_bottom, scr.get_width(), INFO_H))
         if self._winner:
             msg   = f"Winner: {self._winner}! (A:{self.captures['team_A']} B:{self.captures['team_B']})"
             color = A_COLOR if self._winner == "team_A" else B_COLOR
