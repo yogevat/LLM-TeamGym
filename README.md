@@ -54,7 +54,7 @@ LLM-TeamGym/
     └─────┬─────┘       └─────┬──────┘
           │                   │
     ┌─────▼─────────────┐ ┌───▼──────────────┐
-    │ 23 game classes   │ │ RandomAgent       │
+    │ 22 game classes   │ │ RandomAgent       │
     │ all implement:    │ │ GreedyAgent       │
     │  · reset()        │ │ HumanCLIAgent     │
     │  · step()         │ │ YOUR LLM agent    │
