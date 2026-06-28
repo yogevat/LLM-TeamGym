@@ -1,0 +1,2936 @@
+[
+  {
+    "W": 4,
+    "V": 1,
+    "idx": 0,
+    "topology_id": "W4_V1_000_27ecd0a598e7",
+    "shape_hash": "27ecd0a598e7",
+    "shape_matrix": [
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ],
+      [
+        1
+      ]
+    ],
+    "n_edges": 4,
+    "max_edges": 4,
+    "density": 1.0,
+    "worker_degrees": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "validator_degrees": [
+      4
+    ],
+    "lambda_2": 1.0,
+    "eigen_ratio": 0.16666666666666666,
+    "avg_degree": 1.6666666666666667,
+    "max_degree": 5.0,
+    "diameter": 2,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 2,
+    "idx": 1,
+    "topology_id": "W4_V2_001_9d5231433041",
+    "shape_hash": "9d5231433041",
+    "shape_matrix": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "n_edges": 4,
+    "max_edges": 8,
+    "density": 0.5,
+    "worker_degrees": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "validator_degrees": [
+      0,
+      4
+    ],
+    "lambda_2": 0.4659298032772682,
+    "eigen_ratio": 0.07699570125148728,
+    "avg_degree": 1.7142857142857142,
+    "max_degree": 5.0,
+    "diameter": 3,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 2,
+    "idx": 2,
+    "topology_id": "W4_V2_002_25a98d7a1250",
+    "shape_hash": "25a98d7a1250",
+    "shape_matrix": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "n_edges": 4,
+    "max_edges": 8,
+    "density": 0.5,
+    "worker_degrees": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "validator_degrees": [
+      1,
+      3
+    ],
+    "lambda_2": 0.29553218574068635,
+    "eigen_ratio": 0.05798720050951965,
+    "avg_degree": 1.7142857142857142,
+    "max_degree": 4.0,
+    "diameter": 4,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 2,
+    "idx": 3,
+    "topology_id": "W4_V2_003_b92d25d0a279",
+    "shape_hash": "b92d25d0a279",
+    "shape_matrix": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "n_edges": 5,
+    "max_edges": 8,
+    "density": 0.625,
+    "worker_degrees": [
+      1,
+      1,
+      1,
+      2
+    ],
+    "validator_degrees": [
+      1,
+      4
+    ],
+    "lambda_2": 0.7269271369323336,
+    "eigen_ratio": 0.11853417680294033,
+    "avg_degree": 2.0,
+    "max_degree": 5.0,
+    "diameter": 3,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 2,
+    "idx": 4,
+    "topology_id": "W4_V2_004_557ab3958ef6",
+    "shape_hash": "557ab3958ef6",
+    "shape_matrix": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "n_edges": 4,
+    "max_edges": 8,
+    "density": 0.5,
+    "worker_degrees": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "validator_degrees": [
+      2,
+      2
+    ],
+    "lambda_2": 0.2679491924311226,
+    "eigen_ratio": 0.06070145647576514,
+    "avg_degree": 1.7142857142857142,
+    "max_degree": 3.0,
+    "diameter": 4,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 2,
+    "idx": 5,
+    "topology_id": "W4_V2_005_70b42f480010",
+    "shape_hash": "70b42f480010",
+    "shape_matrix": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "n_edges": 5,
+    "max_edges": 8,
+    "density": 0.625,
+    "worker_degrees": [
+      1,
+      1,
+      1,
+      2
+    ],
+    "validator_degrees": [
+      2,
+      3
+    ],
+    "lambda_2": 0.513960597102752,
+    "eigen_ratio": 0.09672470546749093,
+    "avg_degree": 2.0,
+    "max_degree": 4.0,
+    "diameter": 4,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 2,
+    "idx": 6,
+    "topology_id": "W4_V2_006_26f418008ba1",
+    "shape_hash": "26f418008ba1",
+    "shape_matrix": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "n_edges": 6,
+    "max_edges": 8,
+    "density": 0.75,
+    "worker_degrees": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "validator_degrees": [
+      2,
+      4
+    ],
+    "lambda_2": 0.8673625064201611,
+    "eigen_ratio": 0.1382675644542095,
+    "avg_degree": 2.2857142857142856,
+    "max_degree": 5.0,
+    "diameter": 3,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 2,
+    "idx": 7,
+    "topology_id": "W4_V2_007_0aac1ab91f48",
+    "shape_hash": "0aac1ab91f48",
+    "shape_matrix": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "n_edges": 6,
+    "max_edges": 8,
+    "density": 0.75,
+    "worker_degrees": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "validator_degrees": [
+      3,
+      3
+    ],
+    "lambda_2": 0.6972243622680053,
+    "eigen_ratio": 0.12039193710111361,
+    "avg_degree": 2.2857142857142856,
+    "max_degree": 4.0,
+    "diameter": 4,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 2,
+    "idx": 8,
+    "topology_id": "W4_V2_008_58b152dbcbf8",
+    "shape_hash": "58b152dbcbf8",
+    "shape_matrix": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "n_edges": 7,
+    "max_edges": 8,
+    "density": 0.875,
+    "worker_degrees": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "validator_degrees": [
+      3,
+      4
+    ],
+    "lambda_2": 0.948625758268963,
+    "eigen_ratio": 0.1451814458229668,
+    "avg_degree": 2.5714285714285716,
+    "max_degree": 5.0,
+    "diameter": 3,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 2,
+    "idx": 9,
+    "topology_id": "W4_V2_009_04abc8821a06",
+    "shape_hash": "04abc8821a06",
+    "shape_matrix": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "n_edges": 8,
+    "max_edges": 8,
+    "density": 1.0,
+    "worker_degrees": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "validator_degrees": [
+      4,
+      4
+    ],
+    "lambda_2": 1.9999999999999991,
+    "eigen_ratio": 0.28571428571428564,
+    "avg_degree": 2.857142857142857,
+    "max_degree": 5.0,
+    "diameter": 2,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 10,
+    "topology_id": "W4_V3_010_fa7f639248af",
+    "shape_hash": "fa7f639248af",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "n_edges": 4,
+    "max_edges": 12,
+    "density": 0.3333333333333333,
+    "worker_degrees": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "validator_degrees": [
+      0,
+      0,
+      4
+    ],
+    "lambda_2": 0.37380193147270663,
+    "eigen_ratio": 0.060866548326482035,
+    "avg_degree": 1.75,
+    "max_degree": 5.0,
+    "diameter": 3,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 11,
+    "topology_id": "W4_V3_011_272d853a9432",
+    "shape_hash": "272d853a9432",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ]
+    ],
+    "n_edges": 4,
+    "max_edges": 12,
+    "density": 0.3333333333333333,
+    "worker_degrees": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "validator_degrees": [
+      0,
+      1,
+      3
+    ],
+    "lambda_2": 0.2888014012714064,
+    "eigen_ratio": 0.05467747327338636,
+    "avg_degree": 1.75,
+    "max_degree": 4.0,
+    "diameter": 4,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 12,
+    "topology_id": "W4_V3_012_ecb87a3006c8",
+    "shape_hash": "ecb87a3006c8",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ]
+    ],
+    "n_edges": 5,
+    "max_edges": 12,
+    "density": 0.4166666666666667,
+    "worker_degrees": [
+      1,
+      1,
+      1,
+      2
+    ],
+    "validator_degrees": [
+      0,
+      1,
+      4
+    ],
+    "lambda_2": 0.5448659874787013,
+    "eigen_ratio": 0.08749607294872028,
+    "avg_degree": 2.0,
+    "max_degree": 5.0,
+    "diameter": 3,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 13,
+    "topology_id": "W4_V3_013_bc3197bf4c60",
+    "shape_hash": "bc3197bf4c60",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0
+      ]
+    ],
+    "n_edges": 5,
+    "max_edges": 12,
+    "density": 0.4166666666666667,
+    "worker_degrees": [
+      1,
+      1,
+      1,
+      2
+    ],
+    "validator_degrees": [
+      1,
+      1,
+      3
+    ],
+    "lambda_2": 0.3186693563950226,
+    "eigen_ratio": 0.059861949209180434,
+    "avg_degree": 2.0,
+    "max_degree": 4.0,
+    "diameter": 4,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 14,
+    "topology_id": "W4_V3_014_2dc7bbf7984e",
+    "shape_hash": "2dc7bbf7984e",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "n_edges": 6,
+    "max_edges": 12,
+    "density": 0.5,
+    "worker_degrees": [
+      1,
+      1,
+      1,
+      3
+    ],
+    "validator_degrees": [
+      1,
+      1,
+      4
+    ],
+    "lambda_2": 0.6277186767309857,
+    "eigen_ratio": 0.0985076842792249,
+    "avg_degree": 2.25,
+    "max_degree": 5.0,
+    "diameter": 3,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 15,
+    "topology_id": "W4_V3_015_6845ba051b47",
+    "shape_hash": "6845ba051b47",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ]
+    ],
+    "n_edges": 4,
+    "max_edges": 12,
+    "density": 0.3333333333333333,
+    "worker_degrees": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "validator_degrees": [
+      0,
+      2,
+      2
+    ],
+    "lambda_2": 0.267949192431123,
+    "eigen_ratio": 0.05566495563850179,
+    "avg_degree": 1.75,
+    "max_degree": 3.0,
+    "diameter": 4,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 16,
+    "topology_id": "W4_V3_016_4325f29d6d39",
+    "shape_hash": "4325f29d6d39",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1
+      ]
+    ],
+    "n_edges": 5,
+    "max_edges": 12,
+    "density": 0.4166666666666667,
+    "worker_degrees": [
+      1,
+      1,
+      1,
+      2
+    ],
+    "validator_degrees": [
+      0,
+      2,
+      3
+    ],
+    "lambda_2": 0.5065637498004957,
+    "eigen_ratio": 0.09203859931381941,
+    "avg_degree": 2.0,
+    "max_degree": 4.0,
+    "diameter": 4,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 17,
+    "topology_id": "W4_V3_017_7012eaa8e549",
+    "shape_hash": "7012eaa8e549",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "n_edges": 4,
+    "max_edges": 12,
+    "density": 0.3333333333333333,
+    "worker_degrees": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "validator_degrees": [
+      1,
+      1,
+      2
+    ],
+    "lambda_2": 0.3064747977721272,
+    "eigen_ratio": 0.06529735850286965,
+    "avg_degree": 1.75,
+    "max_degree": 3.0,
+    "diameter": 4,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 18,
+    "topology_id": "W4_V3_018_29847ea9099d",
+    "shape_hash": "29847ea9099d",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        1
+      ]
+    ],
+    "n_edges": 5,
+    "max_edges": 12,
+    "density": 0.4166666666666667,
+    "worker_degrees": [
+      1,
+      1,
+      1,
+      2
+    ],
+    "validator_degrees": [
+      1,
+      1,
+      3
+    ],
+    "lambda_2": 0.34788006758242485,
+    "eigen_ratio": 0.06403956554921217,
+    "avg_degree": 2.0,
+    "max_degree": 4.0,
+    "diameter": 4,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 19,
+    "topology_id": "W4_V3_019_3153c6f688a3",
+    "shape_hash": "3153c6f688a3",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        0
+      ]
+    ],
+    "n_edges": 5,
+    "max_edges": 12,
+    "density": 0.4166666666666667,
+    "worker_degrees": [
+      1,
+      1,
+      1,
+      2
+    ],
+    "validator_degrees": [
+      1,
+      2,
+      2
+    ],
+    "lambda_2": 0.30737287663628327,
+    "eigen_ratio": 0.061651030648626266,
+    "avg_degree": 2.0,
+    "max_degree": 3.0,
+    "diameter": 4,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 20,
+    "topology_id": "W4_V3_020_6835b858868e",
+    "shape_hash": "6835b858868e",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "n_edges": 6,
+    "max_edges": 12,
+    "density": 0.5,
+    "worker_degrees": [
+      1,
+      1,
+      1,
+      3
+    ],
+    "validator_degrees": [
+      1,
+      2,
+      3
+    ],
+    "lambda_2": 0.5107114281899213,
+    "eigen_ratio": 0.08838197078182149,
+    "avg_degree": 2.25,
+    "max_degree": 4.0,
+    "diameter": 4,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 21,
+    "topology_id": "W4_V3_021_799d1d75ffcd",
+    "shape_hash": "799d1d75ffcd",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ]
+    ],
+    "n_edges": 6,
+    "max_edges": 12,
+    "density": 0.5,
+    "worker_degrees": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "validator_degrees": [
+      0,
+      2,
+      4
+    ],
+    "lambda_2": 0.6277186767309859,
+    "eigen_ratio": 0.09850768427922497,
+    "avg_degree": 2.25,
+    "max_degree": 5.0,
+    "diameter": 3,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 22,
+    "topology_id": "W4_V3_022_f0e452e9a1b8",
+    "shape_hash": "f0e452e9a1b8",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        1
+      ]
+    ],
+    "n_edges": 6,
+    "max_edges": 12,
+    "density": 0.5,
+    "worker_degrees": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "validator_degrees": [
+      1,
+      1,
+      4
+    ],
+    "lambda_2": 0.7715327560250661,
+    "eigen_ratio": 0.12231163640451481,
+    "avg_degree": 2.25,
+    "max_degree": 5.0,
+    "diameter": 3,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 23,
+    "topology_id": "W4_V3_023_c12e372c36b5",
+    "shape_hash": "c12e372c36b5",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        0
+      ]
+    ],
+    "n_edges": 6,
+    "max_edges": 12,
+    "density": 0.5,
+    "worker_degrees": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "validator_degrees": [
+      1,
+      2,
+      3
+    ],
+    "lambda_2": 0.518805695907984,
+    "eigen_ratio": 0.09328432424719964,
+    "avg_degree": 2.25,
+    "max_degree": 4.0,
+    "diameter": 4,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 24,
+    "topology_id": "W4_V3_024_a33be05ac0fb",
+    "shape_hash": "a33be05ac0fb",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "n_edges": 7,
+    "max_edges": 12,
+    "density": 0.5833333333333334,
+    "worker_degrees": [
+      1,
+      1,
+      2,
+      3
+    ],
+    "validator_degrees": [
+      1,
+      2,
+      4
+    ],
+    "lambda_2": 0.776222410503313,
+    "eigen_ratio": 0.11905355552984791,
+    "avg_degree": 2.5,
+    "max_degree": 5.0,
+    "diameter": 3,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 25,
+    "topology_id": "W4_V3_025_952f5797917c",
+    "shape_hash": "952f5797917c",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        0
+      ]
+    ],
+    "n_edges": 6,
+    "max_edges": 12,
+    "density": 0.5,
+    "worker_degrees": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "validator_degrees": [
+      2,
+      2,
+      2
+    ],
+    "lambda_2": 0.3186693563950224,
+    "eigen_ratio": 0.0598619492091804,
+    "avg_degree": 2.25,
+    "max_degree": 3.0,
+    "diameter": 4,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 26,
+    "topology_id": "W4_V3_026_34bd5d310509",
+    "shape_hash": "34bd5d310509",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "n_edges": 7,
+    "max_edges": 12,
+    "density": 0.5833333333333334,
+    "worker_degrees": [
+      1,
+      1,
+      2,
+      3
+    ],
+    "validator_degrees": [
+      2,
+      2,
+      3
+    ],
+    "lambda_2": 0.5780607721060114,
+    "eigen_ratio": 0.09727207644714496,
+    "avg_degree": 2.5,
+    "max_degree": 4.0,
+    "diameter": 4,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 27,
+    "topology_id": "W4_V3_027_e3694cae3e19",
+    "shape_hash": "e3694cae3e19",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "n_edges": 8,
+    "max_edges": 12,
+    "density": 0.6666666666666666,
+    "worker_degrees": [
+      1,
+      1,
+      3,
+      3
+    ],
+    "validator_degrees": [
+      2,
+      2,
+      4
+    ],
+    "lambda_2": 0.7985276617807596,
+    "eigen_ratio": 0.11836056978099173,
+    "avg_degree": 2.75,
+    "max_degree": 5.0,
+    "diameter": 3,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 28,
+    "topology_id": "W4_V3_028_237f59b91d25",
+    "shape_hash": "237f59b91d25",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ]
+    ],
+    "n_edges": 6,
+    "max_edges": 12,
+    "density": 0.5,
+    "worker_degrees": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "validator_degrees": [
+      0,
+      3,
+      3
+    ],
+    "lambda_2": 0.6728088331968111,
+    "eigen_ratio": 0.11316793150691357,
+    "avg_degree": 2.25,
+    "max_degree": 4.0,
+    "diameter": 4,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 29,
+    "topology_id": "W4_V3_029_099e152b933f",
+    "shape_hash": "099e152b933f",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "n_edges": 5,
+    "max_edges": 12,
+    "density": 0.4166666666666667,
+    "worker_degrees": [
+      1,
+      1,
+      2,
+      1
+    ],
+    "validator_degrees": [
+      1,
+      2,
+      2
+    ],
+    "lambda_2": 0.36359506278950665,
+    "eigen_ratio": 0.0717654444253473,
+    "avg_degree": 2.0,
+    "max_degree": 3.0,
+    "diameter": 4,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 30,
+    "topology_id": "W4_V3_030_ab29d013fd41",
+    "shape_hash": "ab29d013fd41",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        1
+      ]
+    ],
+    "n_edges": 6,
+    "max_edges": 12,
+    "density": 0.5,
+    "worker_degrees": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "validator_degrees": [
+      1,
+      2,
+      3
+    ],
+    "lambda_2": 0.5571727975939876,
+    "eigen_ratio": 0.09912458883384764,
+    "avg_degree": 2.25,
+    "max_degree": 4.0,
+    "diameter": 4,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 31,
+    "topology_id": "W4_V3_031_7c4fa3614e1b",
+    "shape_hash": "7c4fa3614e1b",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "n_edges": 7,
+    "max_edges": 12,
+    "density": 0.5833333333333334,
+    "worker_degrees": [
+      1,
+      1,
+      2,
+      3
+    ],
+    "validator_degrees": [
+      1,
+      3,
+      3
+    ],
+    "lambda_2": 0.6972243622680054,
+    "eigen_ratio": 0.1131077739293802,
+    "avg_degree": 2.5,
+    "max_degree": 4.0,
+    "diameter": 4,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 32,
+    "topology_id": "W4_V3_032_d373f622b6e5",
+    "shape_hash": "d373f622b6e5",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "n_edges": 6,
+    "max_edges": 12,
+    "density": 0.5,
+    "worker_degrees": [
+      1,
+      1,
+      1,
+      3
+    ],
+    "validator_degrees": [
+      2,
+      2,
+      2
+    ],
+    "lambda_2": 0.5857864376269044,
+    "eigen_ratio": 0.10532785668739456,
+    "avg_degree": 2.25,
+    "max_degree": 3.0,
+    "diameter": 4,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 33,
+    "topology_id": "W4_V3_033_305475c999c6",
+    "shape_hash": "305475c999c6",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1
+      ]
+    ],
+    "n_edges": 6,
+    "max_edges": 12,
+    "density": 0.5,
+    "worker_degrees": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "validator_degrees": [
+      2,
+      1,
+      3
+    ],
+    "lambda_2": 0.3656510978643664,
+    "eigen_ratio": 0.06420062331346549,
+    "avg_degree": 2.25,
+    "max_degree": 4.0,
+    "diameter": 4,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 34,
+    "topology_id": "W4_V3_034_e9b7ffeb3301",
+    "shape_hash": "e9b7ffeb3301",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0
+      ]
+    ],
+    "n_edges": 6,
+    "max_edges": 12,
+    "density": 0.5,
+    "worker_degrees": [
+      1,
+      1,
+      2,
+      2
+    ],
+    "validator_degrees": [
+      2,
+      2,
+      2
+    ],
+    "lambda_2": 0.46791111376204353,
+    "eigen_ratio": 0.0884451410853522,
+    "avg_degree": 2.25,
+    "max_degree": 3.0,
+    "diameter": 4,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 35,
+    "topology_id": "W4_V3_035_ef9b44287c4b",
+    "shape_hash": "ef9b44287c4b",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "n_edges": 7,
+    "max_edges": 12,
+    "density": 0.5833333333333334,
+    "worker_degrees": [
+      1,
+      1,
+      2,
+      3
+    ],
+    "validator_degrees": [
+      2,
+      2,
+      3
+    ],
+    "lambda_2": 0.5857864376269044,
+    "eigen_ratio": 0.09763107293781743,
+    "avg_degree": 2.5,
+    "max_degree": 4.0,
+    "diameter": 4,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 36,
+    "topology_id": "W4_V3_036_eeb4498f0c3f",
+    "shape_hash": "eeb4498f0c3f",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "n_edges": 8,
+    "max_edges": 12,
+    "density": 0.6666666666666666,
+    "worker_degrees": [
+      1,
+      1,
+      3,
+      3
+    ],
+    "validator_degrees": [
+      2,
+      3,
+      3
+    ],
+    "lambda_2": 0.6972243622680053,
+    "eigen_ratio": 0.10764033277922894,
+    "avg_degree": 2.75,
+    "max_degree": 4.0,
+    "diameter": 4,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 37,
+    "topology_id": "W4_V3_037_a6f5fc8d53de",
+    "shape_hash": "a6f5fc8d53de",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ]
+    ],
+    "n_edges": 7,
+    "max_edges": 12,
+    "density": 0.5833333333333334,
+    "worker_degrees": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "validator_degrees": [
+      0,
+      3,
+      4
+    ],
+    "lambda_2": 0.6739708735496803,
+    "eigen_ratio": 0.10161678476947035,
+    "avg_degree": 2.5,
+    "max_degree": 5.0,
+    "diameter": 3,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 38,
+    "topology_id": "W4_V3_038_e6f4cc969038",
+    "shape_hash": "e6f4cc969038",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        1
+      ]
+    ],
+    "n_edges": 7,
+    "max_edges": 12,
+    "density": 0.5833333333333334,
+    "worker_degrees": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "validator_degrees": [
+      1,
+      2,
+      4
+    ],
+    "lambda_2": 0.8806388431459645,
+    "eigen_ratio": 0.13667820036375866,
+    "avg_degree": 2.5,
+    "max_degree": 5.0,
+    "diameter": 3,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 39,
+    "topology_id": "W4_V3_039_3e939ee2cfd3",
+    "shape_hash": "3e939ee2cfd3",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        0
+      ]
+    ],
+    "n_edges": 7,
+    "max_edges": 12,
+    "density": 0.5833333333333334,
+    "worker_degrees": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "validator_degrees": [
+      1,
+      3,
+      3
+    ],
+    "lambda_2": 0.6906711320671316,
+    "eigen_ratio": 0.11491871993311124,
+    "avg_degree": 2.5,
+    "max_degree": 4.0,
+    "diameter": 4,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 40,
+    "topology_id": "W4_V3_040_ef5865c85d66",
+    "shape_hash": "ef5865c85d66",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "n_edges": 8,
+    "max_edges": 12,
+    "density": 0.6666666666666666,
+    "worker_degrees": [
+      1,
+      2,
+      2,
+      3
+    ],
+    "validator_degrees": [
+      1,
+      3,
+      4
+    ],
+    "lambda_2": 0.88996140798179,
+    "eigen_ratio": 0.13137899350346152,
+    "avg_degree": 2.75,
+    "max_degree": 5.0,
+    "diameter": 3,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 41,
+    "topology_id": "W4_V3_041_078d948da9c8",
+    "shape_hash": "078d948da9c8",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0
+      ]
+    ],
+    "n_edges": 7,
+    "max_edges": 12,
+    "density": 0.5833333333333334,
+    "worker_degrees": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "validator_degrees": [
+      2,
+      2,
+      3
+    ],
+    "lambda_2": 0.7576704117945419,
+    "eigen_ratio": 0.13170213786817406,
+    "avg_degree": 2.5,
+    "max_degree": 4.0,
+    "diameter": 4,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 42,
+    "topology_id": "W4_V3_042_5106b0fcbf15",
+    "shape_hash": "5106b0fcbf15",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "n_edges": 8,
+    "max_edges": 12,
+    "density": 0.6666666666666666,
+    "worker_degrees": [
+      1,
+      2,
+      2,
+      3
+    ],
+    "validator_degrees": [
+      2,
+      2,
+      4
+    ],
+    "lambda_2": 0.9077072051744562,
+    "eigen_ratio": 0.13646541444719293,
+    "avg_degree": 2.75,
+    "max_degree": 5.0,
+    "diameter": 3,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 43,
+    "topology_id": "W4_V3_043_1fa99804679c",
+    "shape_hash": "1fa99804679c",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        0
+      ]
+    ],
+    "n_edges": 7,
+    "max_edges": 12,
+    "density": 0.5833333333333334,
+    "worker_degrees": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "validator_degrees": [
+      2,
+      3,
+      2
+    ],
+    "lambda_2": 0.5642760700274955,
+    "eigen_ratio": 0.09674615168740389,
+    "avg_degree": 2.5,
+    "max_degree": 4.0,
+    "diameter": 4,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 44,
+    "topology_id": "W4_V3_044_3d7c69aadc56",
+    "shape_hash": "3d7c69aadc56",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "n_edges": 8,
+    "max_edges": 12,
+    "density": 0.6666666666666666,
+    "worker_degrees": [
+      1,
+      2,
+      2,
+      3
+    ],
+    "validator_degrees": [
+      2,
+      3,
+      3
+    ],
+    "lambda_2": 0.7715327560250662,
+    "eigen_ratio": 0.12231163640451477,
+    "avg_degree": 2.75,
+    "max_degree": 4.0,
+    "diameter": 4,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 45,
+    "topology_id": "W4_V3_045_5175c16caeff",
+    "shape_hash": "5175c16caeff",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "n_edges": 9,
+    "max_edges": 12,
+    "density": 0.75,
+    "worker_degrees": [
+      1,
+      2,
+      3,
+      3
+    ],
+    "validator_degrees": [
+      2,
+      3,
+      4
+    ],
+    "lambda_2": 0.910199388641035,
+    "eigen_ratio": 0.13032918630812543,
+    "avg_degree": 3.0,
+    "max_degree": 5.0,
+    "diameter": 3,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 46,
+    "topology_id": "W4_V3_046_0c59162ce9e9",
+    "shape_hash": "0c59162ce9e9",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        0
+      ]
+    ],
+    "n_edges": 7,
+    "max_edges": 12,
+    "density": 0.5833333333333334,
+    "worker_degrees": [
+      1,
+      2,
+      2,
+      2
+    ],
+    "validator_degrees": [
+      3,
+      3,
+      1
+    ],
+    "lambda_2": 0.37380193147270646,
+    "eigen_ratio": 0.06086654832648202,
+    "avg_degree": 2.5,
+    "max_degree": 4.0,
+    "diameter": 4,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 47,
+    "topology_id": "W4_V3_047_c6ade81a0b3b",
+    "shape_hash": "c6ade81a0b3b",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "n_edges": 8,
+    "max_edges": 12,
+    "density": 0.6666666666666666,
+    "worker_degrees": [
+      1,
+      2,
+      2,
+      3
+    ],
+    "validator_degrees": [
+      3,
+      3,
+      2
+    ],
+    "lambda_2": 0.6277186767309856,
+    "eigen_ratio": 0.09850768427922486,
+    "avg_degree": 2.75,
+    "max_degree": 4.0,
+    "diameter": 4,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 48,
+    "topology_id": "W4_V3_048_a61625984fc9",
+    "shape_hash": "a61625984fc9",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "n_edges": 9,
+    "max_edges": 12,
+    "density": 0.75,
+    "worker_degrees": [
+      1,
+      2,
+      3,
+      3
+    ],
+    "validator_degrees": [
+      3,
+      3,
+      3
+    ],
+    "lambda_2": 0.7985276617807593,
+    "eigen_ratio": 0.11836056978099169,
+    "avg_degree": 3.0,
+    "max_degree": 4.0,
+    "diameter": 4,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 49,
+    "topology_id": "W4_V3_049_9dd40adbba11",
+    "shape_hash": "9dd40adbba11",
+    "shape_matrix": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "n_edges": 10,
+    "max_edges": 12,
+    "density": 0.8333333333333334,
+    "worker_degrees": [
+      1,
+      3,
+      3,
+      3
+    ],
+    "validator_degrees": [
+      3,
+      3,
+      4
+    ],
+    "lambda_2": 0.9161276405643922,
+    "eigen_ratio": 0.12554731861158558,
+    "avg_degree": 3.25,
+    "max_degree": 5.0,
+    "diameter": 3,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 50,
+    "topology_id": "W4_V3_050_9f9d6da1c1bd",
+    "shape_hash": "9f9d6da1c1bd",
+    "shape_matrix": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ]
+    ],
+    "n_edges": 8,
+    "max_edges": 12,
+    "density": 0.6666666666666666,
+    "worker_degrees": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "validator_degrees": [
+      0,
+      4,
+      4
+    ],
+    "lambda_2": 0.7029294556367253,
+    "eigen_ratio": 0.09922954846870358,
+    "avg_degree": 2.75,
+    "max_degree": 5.0,
+    "diameter": 3,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 51,
+    "topology_id": "W4_V3_051_67f4c0afbf62",
+    "shape_hash": "67f4c0afbf62",
+    "shape_matrix": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        1
+      ]
+    ],
+    "n_edges": 8,
+    "max_edges": 12,
+    "density": 0.6666666666666666,
+    "worker_degrees": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "validator_degrees": [
+      1,
+      3,
+      4
+    ],
+    "lambda_2": 0.9398235834534012,
+    "eigen_ratio": 0.1405578051097021,
+    "avg_degree": 2.75,
+    "max_degree": 5.0,
+    "diameter": 3,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 52,
+    "topology_id": "W4_V3_052_cdb4cf02bfb0",
+    "shape_hash": "cdb4cf02bfb0",
+    "shape_matrix": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "n_edges": 9,
+    "max_edges": 12,
+    "density": 0.75,
+    "worker_degrees": [
+      2,
+      2,
+      2,
+      3
+    ],
+    "validator_degrees": [
+      1,
+      4,
+      4
+    ],
+    "lambda_2": 1.2534317530042827,
+    "eigen_ratio": 0.17405215130135843,
+    "avg_degree": 3.0,
+    "max_degree": 5.0,
+    "diameter": 3,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 53,
+    "topology_id": "W4_V3_053_60997e898c2f",
+    "shape_hash": "60997e898c2f",
+    "shape_matrix": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1
+      ]
+    ],
+    "n_edges": 8,
+    "max_edges": 12,
+    "density": 0.6666666666666666,
+    "worker_degrees": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "validator_degrees": [
+      2,
+      2,
+      4
+    ],
+    "lambda_2": 1.0000000000000004,
+    "eigen_ratio": 0.15240294919944816,
+    "avg_degree": 2.75,
+    "max_degree": 5.0,
+    "diameter": 3,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 54,
+    "topology_id": "W4_V3_054_71268460605b",
+    "shape_hash": "71268460605b",
+    "shape_matrix": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0
+      ]
+    ],
+    "n_edges": 8,
+    "max_edges": 12,
+    "density": 0.6666666666666666,
+    "worker_degrees": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "validator_degrees": [
+      2,
+      3,
+      3
+    ],
+    "lambda_2": 1.2384428181681095,
+    "eigen_ratio": 0.20219852834662697,
+    "avg_degree": 2.75,
+    "max_degree": 4.0,
+    "diameter": 3,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 55,
+    "topology_id": "W4_V3_055_ff4ccf2ba477",
+    "shape_hash": "ff4ccf2ba477",
+    "shape_matrix": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "n_edges": 9,
+    "max_edges": 12,
+    "density": 0.75,
+    "worker_degrees": [
+      2,
+      2,
+      2,
+      3
+    ],
+    "validator_degrees": [
+      2,
+      3,
+      4
+    ],
+    "lambda_2": 1.3088744772233794,
+    "eigen_ratio": 0.19029700331092317,
+    "avg_degree": 3.0,
+    "max_degree": 5.0,
+    "diameter": 3,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 56,
+    "topology_id": "W4_V3_056_f8e179362ac9",
+    "shape_hash": "f8e179362ac9",
+    "shape_matrix": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "n_edges": 10,
+    "max_edges": 12,
+    "density": 0.8333333333333334,
+    "worker_degrees": [
+      2,
+      2,
+      3,
+      3
+    ],
+    "validator_degrees": [
+      2,
+      4,
+      4
+    ],
+    "lambda_2": 1.627718676730986,
+    "eigen_ratio": 0.2207890075482393,
+    "avg_degree": 3.25,
+    "max_degree": 5.0,
+    "diameter": 3,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 57,
+    "topology_id": "W4_V3_057_05af8f213f91",
+    "shape_hash": "05af8f213f91",
+    "shape_matrix": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "n_edges": 9,
+    "max_edges": 12,
+    "density": 0.75,
+    "worker_degrees": [
+      2,
+      2,
+      2,
+      3
+    ],
+    "validator_degrees": [
+      3,
+      3,
+      3
+    ],
+    "lambda_2": 1.5857864376269049,
+    "eigen_ratio": 0.24167852989482705,
+    "avg_degree": 3.0,
+    "max_degree": 4.0,
+    "diameter": 3,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 58,
+    "topology_id": "W4_V3_058_c0c2892ac8e8",
+    "shape_hash": "c0c2892ac8e8",
+    "shape_matrix": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "n_edges": 10,
+    "max_edges": 12,
+    "density": 0.8333333333333334,
+    "worker_degrees": [
+      2,
+      2,
+      3,
+      3
+    ],
+    "validator_degrees": [
+      3,
+      3,
+      4
+    ],
+    "lambda_2": 1.585786437626904,
+    "eigen_ratio": 0.22094132955055384,
+    "avg_degree": 3.25,
+    "max_degree": 5.0,
+    "diameter": 3,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 59,
+    "topology_id": "W4_V3_059_4b0ff71ccde0",
+    "shape_hash": "4b0ff71ccde0",
+    "shape_matrix": [
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "n_edges": 11,
+    "max_edges": 12,
+    "density": 0.9166666666666666,
+    "worker_degrees": [
+      2,
+      3,
+      3,
+      3
+    ],
+    "validator_degrees": [
+      3,
+      4,
+      4
+    ],
+    "lambda_2": 1.8586638843446355,
+    "eigen_ratio": 0.2437209036066336,
+    "avg_degree": 3.5,
+    "max_degree": 5.0,
+    "diameter": 3,
+    "clustering_coeff": 0.0
+  },
+  {
+    "W": 4,
+    "V": 3,
+    "idx": 60,
+    "topology_id": "W4_V3_060_3ee5f0d83bf7",
+    "shape_hash": "3ee5f0d83bf7",
+    "shape_matrix": [
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "n_edges": 12,
+    "max_edges": 12,
+    "density": 1.0,
+    "worker_degrees": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "validator_degrees": [
+      4,
+      4,
+      4
+    ],
+    "lambda_2": 2.999999999999999,
+    "eigen_ratio": 0.37499999999999983,
+    "avg_degree": 3.75,
+    "max_degree": 5.0,
+    "diameter": 2,
+    "clustering_coeff": 0.0
+  }
+]
